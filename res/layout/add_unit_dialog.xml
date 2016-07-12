@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/enter_unit_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:hint="Number/Name"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/enter_unit_bedrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/enter_unit_name"
+            android:hint="Bedrooms" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/enter_unit_bathrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/enter_unit_name"
+            android:layout_toRightOf="@+id/enter_unit_bedrooms"
+            android:hint="Bathrooms" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/enter_unit_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/enter_unit_bathrooms"
+            android:hint="Rent" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/enter_unit_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/enter_unit_rent"
+            android:hint="Notes"
+            android:lines="2" />
+
+        <Button
+            android:id="@+id/dialog_tenant_button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/enter_unit_notes"
+            android:layout_marginTop="5dp"
+            android:text="@string/ok" />
+    </RelativeLayout>
+
+</ScrollView>

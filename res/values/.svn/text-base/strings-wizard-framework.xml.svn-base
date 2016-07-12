@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Save</string>
+    <string name="review">Review</string>
+     <string name="submit_confirm_message">Save new Property?</string>
+    <string name="submit_confirm_button">Save</string>
+</resources>

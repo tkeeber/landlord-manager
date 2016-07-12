@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical" >
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView style="@style/WizardPageTitle" />
+        
+        <EditText
+            android:id="@+id/enter_property_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/enter_property_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_address"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/enter_property_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_city"
+            android:inputType="textPostalAddress" />
+
+          <EditText
+            android:id="@+id/enter_property_state_county"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_state"
+            android:inputType="textPostalAddress" />
+          
+        <EditText
+            android:id="@+id/enter_property_postcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_postcode"
+            android:inputType="text" />
+        
+           <Spinner
+               android:id="@+id/enter_property_country"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="2dp"
+               android:entries="@array/country_array" />
+                      
+</LinearLayout>
+
+</ScrollView>

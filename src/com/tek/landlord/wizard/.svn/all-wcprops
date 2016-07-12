@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/164/android/Landlord/src/com/tek/landlord/wizard
+END
+BasicPropertDetailsPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sprint-mobile-apps/!svn/ver/158/android/Landlord/src/com/tek/landlord/wizard/BasicPropertDetailsPage.java
+END
+NewPropertyWizardModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/sprint-mobile-apps/!svn/ver/156/android/Landlord/src/com/tek/landlord/wizard/NewPropertyWizardModel.java
+END
+BasicPropertyDetailsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/sprint-mobile-apps/!svn/ver/155/android/Landlord/src/com/tek/landlord/wizard/BasicPropertyDetailsFragment.java
+END
+AddPropertyUnitFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sprint-mobile-apps/!svn/ver/164/android/Landlord/src/com/tek/landlord/wizard/AddPropertyUnitFragment.java
+END
+PersistableProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sprint-mobile-apps/!svn/ver/153/android/Landlord/src/com/tek/landlord/wizard/PersistableProperty.java
+END
+ListRemoveCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/sprint-mobile-apps/!svn/ver/148/android/Landlord/src/com/tek/landlord/wizard/ListRemoveCallback.java
+END
+UnitRowAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/sprint-mobile-apps/!svn/ver/148/android/Landlord/src/com/tek/landlord/wizard/UnitRowAdapter.java
+END
+PersistablePropertyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/sprint-mobile-apps/!svn/ver/153/android/Landlord/src/com/tek/landlord/wizard/PersistablePropertyBuilder.java
+END
+AddPropertyUnitPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sprint-mobile-apps/!svn/ver/154/android/Landlord/src/com/tek/landlord/wizard/AddPropertyUnitPage.java
+END
+NewPropertyWizardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/sprint-mobile-apps/!svn/ver/161/android/Landlord/src/com/tek/landlord/wizard/NewPropertyWizardActivity.java
+END

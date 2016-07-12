@@ -1,0 +1,55 @@
+Property Type
+
+Commerical
+
+Residental
+   - Single Family
+		- Detached
+		- Semi-Detached
+   - Unit Unit
+		- Flat
+		- Loft
+		- Penthouse
+		- Townhouse
+		- Duplex
+		
+		
+Property
+  
+	id
+	name
+	address
+	type
+	
+Unit
+	id
+	name	
+	property_id
+	is_rented
+	
+Unit to Tenant
+    unit_id
+	tenant_id
+
+Tenant
+	id
+	Name
+	email
+	phone
+	
+	
+Select * from Tenant t
+inner join UnitToTenant uot on tenant_id =  t.id
+inner join Property p on p.id = uot.id
+where p.id = ?
+	
+
+	
+Property
+  
+	id
+	name
+	address
+	type - have flat type
+
+	

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_property_title_tenant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:text="@string/title_tenant_information"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/enter_property_single_unit_rent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_property_title_tenant"
+            android:layout_margin="2dp"
+            android:hint="@string/enter_property_single_unit_rent"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:id="@+id/enter_property_single_unit_deposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_single_unit_rent"
+            android:layout_margin="2dp"
+            android:inputType="date"
+            android:hint="@string/enter_property_tenant_single_unit_deposit" />
+
+        <CheckBox
+            android:id="@+id/enter_property_is_tenanted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_single_unit_deposit"
+            android:layout_margin="2dp"
+            android:text="@string/enter_property_is_tenanted" />
+
+        <EditText
+            android:id="@+id/enter_property_tenancy_start_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_is_tenanted"
+            android:layout_margin="2dp"
+            android:inputType="date"
+            android:hint="@string/enter_property_tenant_start_date" />
+
+        <EditText
+            android:id="@+id/enter_property_tenancy_end_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_tenancy_start_date"
+            android:layout_margin="2dp"
+            android:inputType="date"
+            android:hint="@string/enter_property_tenant_end_date" />
+
+        <EditText
+            android:id="@+id/enter_property_move_in_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_tenancy_start_date"
+            android:layout_margin="2dp"
+            android:inputType="date"
+            android:hint="@string/enter_property_tenant_end_date" />
+
+        <CheckBox
+            android:id="@+id/enter_property_deposit_paid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_move_in_date"
+            android:layout_margin="2dp"
+            android:text="@string/enter_property_has_deposit_been_paid" />
+
+        <EditText
+            android:id="@+id/enter_property_deposit_paid_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_deposit_paid"
+            android:layout_margin="2dp"
+            android:inputType="date"
+            android:hint="@string/enter_property_deposit_paid_date" />
+
+        <CheckBox
+            android:id="@+id/enter_property_deposit_paid_into_dps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_property_deposit_paid_date"
+            android:layout_margin="2dp"
+            android:text="@string/enter_property_has_deposit_been_paid_into_dps" />
+    </RelativeLayout>
+
+</ScrollView>

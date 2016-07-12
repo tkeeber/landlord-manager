@@ -1,0 +1,26 @@
+package com.tek.landlord.property;
+
+import android.os.Bundle;
+import android.support.v4.app.ListFragment;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import com.tek.landlord.R;
+
+public class PropertyListFragment extends ListFragment {
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        String[] values = new String[] {
+                "Property One", "Property Two"
+        };
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), R.layout.property_list, values);
+        setListAdapter(adapter);
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+    }
+}

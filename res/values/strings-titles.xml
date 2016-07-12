@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_financial_overview">FINANCIAL OVERVIEW</string>
+    <string name="property_title">PROPERTY</string>
+    <string name="newsfeed_title">NEWS FEED</string>
+    <string name="title_property_overview">PROPERTY OVERVIEW</string>
+    <string name="current_monthly_profit_loss_subtitle">monthly net income</string>
+    <string name="current_monthly_incomings_subtitle">revenue</string>
+    <string name="current_monthly_outgoings_subtitle">expenses</string>
+    <string name="current_monthly_incoming_rents_subtitle">milage</string>
+    <string name="current_monthly_outgoing_expenses_subtitle">expenses</string>
+    <string name="current_property_total_subtitle">total properties</string>
+    <string name="current_properties_occuppied_total_subtitle">occuppied</string>
+    <string name="current_properties_available_total_subtitle">available</string>
+    <string name="current_monthly_outgoing_expenses_subtitle">expenses</string>
+
+</resources>

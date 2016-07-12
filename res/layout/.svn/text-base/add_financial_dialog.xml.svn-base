@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Spinner
+        android:id="@+id/enter_financial_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_alignParentTop="true"
+        android:entries="@array/financial_type_array" />
+     
+    <EditText
+        android:id="@+id/enter_financial_item_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:hint="Amount"
+        android:layout_below="@id/enter_financial_type"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/dialog_finanical_button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/enter_financial_item_amount"
+        android:layout_marginTop="22dp"
+        android:text=" Ok " />
+
+    <Spinner
+        android:id="@+id/enter_financial_time_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dialog_finanical_button_add"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@+id/enter_financial_item_amount"
+        android:entries="@array/money_interval_array" />
+
+</RelativeLayout>

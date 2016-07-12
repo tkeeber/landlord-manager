@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Landlord</string>
+    <string name="ok">OK</string>
+    <string name="title_home">Home</string>
+    <string name="title_newsfeed">Newsfeed</string>
+    <string name="title_properties">Properties</string>
+    <string name="title_rents">Rents</string>
+    <string name="title_tenants">Tenants</string>
+    <string name="title_financials">Financials</string>
+    <string name="title_damage_reports">Damage Reports</string>
+    <string name="alarm">Alarm</string>
+    <string name="notification">Notifications</string>
+    <string name="calendar">Calendar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_property_name">Property Name</string>
+    <string name="enter_property_address">Address</string>
+    <string name="enter_property_line2">Address line 2</string>
+    <string name="enter_property_city">City</string>
+    <string name="enter_property_postcode">Postcode</string>
+    <string name="enter_property_rent">Rent</string>
+    <string name="title_basic_property_info">Property Information</string>
+    <string name="title_financial_property_info">Outgoings for Property</string>
+    <string name="enter_property_mortgage_per_month">Monthly Mortgage payments</string>
+    <string name="enter_property_deposit">Security Deposit</string>
+    <string name="enter_property_utilities">Utility Payments</string>
+    <string name="enter_property_insurance">Insurance Payments</string>
+    <string name="title_tenant_property_info">Tenant Information</string>
+    <string name="property_currently_tenanted">Currently Tenanted</string>
+    <string name="enter_property_lease_start">Lease Start Date</string>
+    <string name="enter_property_lease_end">Lease End Date</string>
+    <string name="enter_property_tenant_name">Name</string>
+    <string name="enter_property_tenant_phone">Telephone</string>
+    <string name="enter_property_state">State/County</string>
+    <string name="enter_property_single_unit_rent">Rent/Month</string>
+    <string name="enter_property_tenant_single_unit_deposit">Deposit</string>
+    <string name="title_tenant_information">Tenancy Information</string>
+    <string name="enter_property_tenant_start_date">Tenancy Start Date</string>
+    <string name="enter_property_tenant_end_date">Tenancy End Date</string>
+    <string name="enter_property_is_tenanted">Currently Tenanted</string>
+    <string name="enter_property_requires_consent_to_let">Requires consent to let</string>
+    <string name="enter_property_consent_to_let_renew_date">Consent to let new date</string>
+    <string name="enter_property_uk_dss_allowed">DSS allowed</string>
+    <string name="enter_property_are_pets_allowed">Pets allowed</string>
+	<string name="enter_property_has_deposit_been_paid">Deposit paid</string>
+	<string name="enter_property_deposit_paid_date">Deposit paid date</string>
+	<string name="enter_property_has_deposit_been_paid_into_dps">Deposit paid into DPS</string>
+    <string-array name="property_type_array">
+        <item>Single Tenanted House</item>
+        <item>Multi-unit house or Flat</item>
+        <item>Holiday let</item>
+        <item>B and B</item>
+        <item>Flat</item>
+    </string-array>
+    <string-array name="financial_type_array">
+        <item>Mortgage Repayments</item>
+        <item>Agency/Management Fees</item>
+        <item>Contents Insurance</item>
+        <item>House Insurance</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>USA</item>
+        <item>United Kingdom</item>
+    </string-array>
+    <string-array name="money_interval_array">
+        <item>Per Month</item>
+        <item>One off payment</item>
+        <item>Annual</item>
+        <item>Quarterly</item>
+        <item>Per Week</item>
+        <item>Per Day</item>
+    </string-array>
+    <string-array name="tenancy_type_array">
+        <item>Assured shorthold Tenancy (AST)</item>
+        <item>Excluded Tenancy</item>
+        <item>Assured Tenancy</item>
+        <item>Regulated Tenancy</item>
+    </string-array>
+       
+
+</resources>

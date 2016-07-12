@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" 
+   >
+
+    <TextView
+        android:id="@+id/financial_title"
+        style="@style/section_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_financial_overview" />
+
+    <TextView
+        android:id="@+id/current_month_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/financial_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/default_zero__decimal_amount"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+     />
+
+    <TextView
+        android:id="@+id/sub_title_current_monthly_totals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/current_month_total"
+        android:layout_alignLeft="@id/current_month_total"
+        android:layout_marginRight="15dp"
+        android:text="@string/current_monthly_profit_loss_subtitle"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_rounded_corners_no_border"
+        android:padding="5dp" 
+        android:baselineAligned="false"
+        android:layout_toRightOf="@id/sub_title_current_monthly_totals"
+        android:layout_below="@id/financial_title"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+         >
+
+         <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+        
+        <LinearLayout
+            android:id="@+id/month_incomings_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/month_incomings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/default_zero__decimal_amount"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/month_incomings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_monthly_incomings_subtitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/month_outgoing_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/monthly_outgoings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/default_zero__decimal_amount"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red" />
+
+            <TextView
+                android:id="@+id/monthly_outgoings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_monthly_outgoings_subtitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+    <!--     <LinearLayout
+            android:id="@+id/month_incoming_rents_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/month_outgoing_layout"
+            android:orientation="vertical"
+            android:padding="2dp" 
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/monthly_rents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/default_zero__decimal_amount"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red" />
+
+            <TextView
+                android:id="@+id/monthly_rents_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_monthly_incoming_rents_subtitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/month_incoming_rents_layout"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/monthly_expenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:text="@string/default_zero__decimal_amount"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/red" />
+
+            <TextView
+                android:id="@+id/monthly_expenses_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/current_monthly_outgoing_expenses_subtitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+</RelativeLayout>

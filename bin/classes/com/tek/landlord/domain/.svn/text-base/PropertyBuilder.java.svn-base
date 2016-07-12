@@ -1,0 +1,65 @@
+package com.tek.landlord.domain;
+
+public class PropertyBuilder {
+
+    private String name;
+    private Integer type;
+    private String address;
+    private String city;
+    private String state;
+    private String postcode;
+    private String country;
+    private int id;
+
+    public static final PropertyBuilder aProperty() {
+        return new PropertyBuilder();
+    }
+
+    private PropertyBuilder() {
+
+    }
+
+    public PropertyBuilder withId(int id) {
+        this.id = id;
+        return this;
+    }
+
+    public PropertyBuilder withName(String name) {
+        this.name = name;
+        return this;
+    }
+
+    public PropertyBuilder withType(Integer type) {
+        this.type = type;
+        return this;
+    }
+
+    public PropertyBuilder withAddress(String address) {
+        this.address = address;
+        return this;
+    }
+
+    public PropertyBuilder withCity(String city) {
+        this.city = city;
+        return this;
+    }
+
+    public PropertyBuilder withState(String state) {
+        this.state = state;
+        return this;
+    }
+
+    public PropertyBuilder withPostCode(String postcode) {
+        this.postcode = postcode;
+        return this;
+    }
+
+    public PropertyBuilder withCountry(String country) {
+        this.country = country;
+        return this;
+    }
+
+    public Property build() {
+        return new Property(this.id, this.name, this.type, this.address, this.city, this.state, this.postcode, this.country);
+    }
+}
