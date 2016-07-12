@@ -1,19 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/sprint-mobile-apps/!svn/ver/163/android/Landlord/src/com/tek/landlord/dao
+/svn/sprint-mobile-apps/!svn/ver/158/android/Landlord/src/com/tek/landlord/dao
 END
 UnitDao.java
 K 25
 svn:wc:ra_dav:version-url
 V 91
 /svn/sprint-mobile-apps/!svn/ver/129/android/Landlord/src/com/tek/landlord/dao/UnitDao.java
-END
-NewsfeedDao.java
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/sprint-mobile-apps/!svn/ver/163/android/Landlord/src/com/tek/landlord/dao/NewsfeedDao.java
 END
 PropertyDao.java
 K 25
@@ -32,4 +26,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 93
 /svn/sprint-mobile-apps/!svn/ver/128/android/Landlord/src/com/tek/landlord/dao/TenantDao.java
+END
+NewsfeedDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sprint-mobile-apps/!svn/ver/163/android/Landlord/src/com/tek/landlord/dao/NewsfeedDao.java
 END

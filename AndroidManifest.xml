@@ -22,9 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity android:name="com.tek.landlord.wizard.NewPropertyWizardActivity"
+       <activity android:name="com.tek.landlord.wizard.NewPropertyWizardActivity"
             android:parentActivityName="com.tek.landlord.MainActivity"></activity>
-          
+               
     </application>
 
 </manifest>

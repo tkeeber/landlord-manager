@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src/com/tek/landlord/dao
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-06-09T15:53:36.203754Z
-163
+2014-06-04T11:43:06.746824Z
+158
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,16 +26,16 @@ sprint22
 
 932c6fbe-3523-44cc-8d3c-5434c6b5a9f9
 
-UnitDao.java
+FinancialDao.java
 file
 
 
 
 
-2014-05-20T13:51:07.000000Z
-5ff935afdef0dd6841dd85771c91ce75
-2014-05-20T12:07:08.747961Z
-129
+2014-05-22T06:33:51.000000Z
+37015221e3d63bfa703561410a0ca414
+2014-05-22T06:36:00.513562Z
+132
 sprint22
 
 
@@ -58,15 +58,15 @@ sprint22
 
 
 
-1567
+2942
 
 NewsfeedDao.java
 file
+163
 
 
 
-
-2014-09-11T16:49:07.000000Z
+2014-06-09T15:51:45.000000Z
 0dcdb491662c770337b50fc18c06634d
 2014-06-09T15:53:36.203754Z
 163
@@ -100,7 +100,7 @@ file
 
 
 
-2014-09-11T16:49:07.000000Z
+2014-06-03T16:35:03.000000Z
 059c25524035c9507f5ceb70906b8c8f
 2014-06-04T11:43:06.746824Z
 158
@@ -128,47 +128,13 @@ sprint22
 
 3009
 
-FinancialDao.java
-file
-
-
-
-
-2014-09-11T16:49:07.000000Z
-37015221e3d63bfa703561410a0ca414
-2014-05-22T06:36:00.513562Z
-132
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2942
-
 TenantDao.java
 file
 
 
 
 
-2014-05-19T16:18:21.000000Z
+2014-05-21T19:10:24.000000Z
 3cfade78f08e123401c099b24a5339ff
 2014-05-20T07:08:07.500253Z
 128
@@ -195,4 +161,38 @@ sprint22
 
 
 1509
+
+UnitDao.java
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+5ff935afdef0dd6841dd85771c91ce75
+2014-05-20T12:07:08.747961Z
+129
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1567
 

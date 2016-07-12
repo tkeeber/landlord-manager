@@ -1,7 +1,7 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/res/drawable
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
@@ -12,7 +12,7 @@ https://subversion.assembla.com/svn/sprint-mobile-apps
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,251 +26,13 @@ sprint22
 
 932c6fbe-3523-44cc-8d3c-5434c6b5a9f9
 
-selectable_item_background.xml
-file
-
-
-
-
-2014-09-11T16:49:10.000000Z
-2793e772e40a16e366064de98c2083b4
-2014-05-22T17:38:47.480849Z
-134
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-978
-
-menu_ok.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-679765abac3a4dc4d2abdd16aa394405
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1059
-
-arrow_up.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-73021d9acb2a4fdc1c63f689058dbcf9
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-893
-
-menu_eraser.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-05a796143ab6e3f771188792d62af960
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1852
-
-menu_down_arrow.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-b4ae4d3d651840da401d522867011fd6
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1658
-
-popup.9.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-7c2839aff870dc0eea4bd09b19ce6e98
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-457
-
-action_item_selected.9.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-eada127cbf4c8c3d81d1da9637dfdb89
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-909
-
 action_item_btn.xml
 file
 
 
 
 
-2014-04-17T06:28:53.000000Z
+2014-05-21T19:10:24.000000Z
 66cef22b996e392cc142a4a1119967ad
 2014-04-16T07:14:29.638357Z
 94
@@ -298,14 +60,14 @@ sprint22
 
 558
 
-menu_info.png
+action_item_selected.9.png
 file
 
 
 
 
-2014-04-17T06:28:53.000000Z
-1bb47487c7784e82cbc8b9cd5d8d0675
+2014-05-21T19:10:24.000000Z
+eada127cbf4c8c3d81d1da9637dfdb89
 2014-04-16T07:14:29.638357Z
 94
 sprint22
@@ -330,7 +92,7 @@ has-props
 
 
 
-1960
+909
 
 arrow_down.png
 file
@@ -338,7 +100,7 @@ file
 
 
 
-2014-04-17T06:28:53.000000Z
+2014-05-21T19:10:24.000000Z
 b8092a62b5b5fb9211fc7d6c4e46fcc4
 2014-04-16T07:14:29.638357Z
 94
@@ -366,14 +128,14 @@ has-props
 
 922
 
-menu_up_arrow.png
+arrow_up.png
 file
 
 
 
 
-2014-04-17T06:28:53.000000Z
-2316f2e7ca35cbef99fbb42615ae425d
+2014-05-21T19:10:24.000000Z
+73021d9acb2a4fdc1c63f689058dbcf9
 2014-04-16T07:14:29.638357Z
 94
 sprint22
@@ -398,75 +160,7 @@ has-props
 
 
 
-1666
-
-icon.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-264c735b1cd5f1c4e9b665e90eaf30ce
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1723
-
-menu_search.png
-file
-
-
-
-
-2014-04-17T06:28:53.000000Z
-bc1f87c8ea36cf2b00ade581071933db
-2014-04-16T07:14:29.638357Z
-94
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1699
+893
 
 finish_background.xml
 file
@@ -474,7 +168,7 @@ file
 
 
 
-2014-09-11T16:49:10.000000Z
+2014-05-22T22:31:34.000000Z
 7b9369dacaa104af0967f72182255242
 2014-05-22T17:38:47.480849Z
 134
@@ -502,13 +196,285 @@ sprint22
 
 791
 
+icon.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+264c735b1cd5f1c4e9b665e90eaf30ce
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1723
+
+menu_down_arrow.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+b4ae4d3d651840da401d522867011fd6
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1658
+
+menu_eraser.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+05a796143ab6e3f771188792d62af960
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1852
+
+menu_info.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+1bb47487c7784e82cbc8b9cd5d8d0675
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1960
+
+menu_ok.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+679765abac3a4dc4d2abdd16aa394405
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1059
+
+menu_search.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+bc1f87c8ea36cf2b00ade581071933db
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1699
+
+menu_up_arrow.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+2316f2e7ca35cbef99fbb42615ae425d
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1666
+
+popup.9.png
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+7c2839aff870dc0eea4bd09b19ce6e98
+2014-04-16T07:14:29.638357Z
+94
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+457
+
 quickaction_slider_btn.xml
 file
 
 
 
 
-2014-04-12T09:30:19.000000Z
+2014-05-21T19:10:24.000000Z
 971ee64f273046c88ef50043416126ca
 2014-04-11T14:59:25.017634Z
 85
@@ -535,4 +501,38 @@ sprint22
 
 
 1303
+
+selectable_item_background.xml
+file
+
+
+
+
+2014-05-22T22:31:34.000000Z
+2793e772e40a16e366064de98c2083b4
+2014-05-22T17:38:47.480849Z
+134
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+978
 

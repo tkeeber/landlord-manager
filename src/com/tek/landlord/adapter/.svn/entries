@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src/com/tek/landlord/adapter
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-06-11T06:38:53.425016Z
-164
+2014-05-21T06:58:35.382681Z
+130
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2014-05-20T13:52:56.000000Z
+2014-05-21T19:10:23.000000Z
 c745fb811d23fc7591022bbf67faddc8
 2014-05-21T06:58:35.382681Z
 130
@@ -62,11 +62,11 @@ sprint22
 
 NewsfeedListAdapter.java
 file
+164
 
 
 
-
-2014-09-11T16:49:07.000000Z
+2014-06-10T16:59:34.000000Z
 e2d4964373e18f155853d83710317a92
 2014-06-11T06:38:53.425016Z
 164

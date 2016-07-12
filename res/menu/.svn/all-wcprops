@@ -3,15 +3,15 @@ svn:wc:ra_dav:version-url
 V 61
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/menu
 END
-global.xml
-K 25
-svn:wc:ra_dav:version-url
-V 72
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/menu/global.xml
-END
 main.xml
 K 25
 svn:wc:ra_dav:version-url
 V 70
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/menu/main.xml
+END
+global.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/menu/global.xml
 END

@@ -1,7 +1,7 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src/com/tek/landlord/dto
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
@@ -12,7 +12,7 @@ https://subversion.assembla.com/svn/sprint-mobile-apps
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2014-04-26T12:45:02.000000Z
+2014-05-21T19:10:23.000000Z
 e3d17236909031e747e2a43944e5d393
 2014-04-27T14:42:20.659567Z
 106
@@ -66,7 +66,7 @@ file
 
 
 
-2014-04-26T12:47:36.000000Z
+2014-05-21T19:10:23.000000Z
 840ccb2450186b96417d1af4f23df84a
 2014-04-27T14:42:20.659567Z
 106

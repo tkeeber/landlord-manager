@@ -1,5 +1,6 @@
 package com.tek.landlord;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -12,6 +13,7 @@ import android.widget.Toast;
 import com.tek.landlord.dao.PropertyDao;
 import com.tek.landlord.property.AddPropertyWizard;
 import com.tek.landlord.property.PropertyListAdaptor;
+import com.tek.landlord.wizard.NewPropertyWizardActivity;
 
 public class PropertyListFragment extends ListFragment {
 
@@ -71,8 +73,7 @@ public class PropertyListFragment extends ListFragment {
             public void onItemClick(QuickAction quickAction, int pos, int actionId) {
                 ActionItem actionItem = quickAction.getActionItem(pos);
                 if (actionId == ID_ADD) {
-                    FragmentManager fragmentManager = getFragmentManager();
-                    fragmentManager.beginTransaction().replace(R.id.container, new AddPropertyWizard()).commit();
+                   startAddProperty();
                 } else {
                     Toast.makeText(PropertyListFragment.this.getActivity(), actionItem.getTitle() + " selected", Toast.LENGTH_SHORT).show();
                 }
@@ -86,4 +87,9 @@ public class PropertyListFragment extends ListFragment {
             }
         });
     }
+    
+    private void startAddProperty() {
+		startActivity(new Intent(this.getActivity(),
+				NewPropertyWizardActivity.class));
+	}
 }

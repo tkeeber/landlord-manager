@@ -3,65 +3,11 @@ svn:wc:ra_dav:version-url
 V 61
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim
 END
-grow_from_topright_to_bottomleft.xml
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/grow_from_topright_to_bottomleft.xml
-END
 grow_from_topleft_to_bottomright.xml
 K 25
 svn:wc:ra_dav:version-url
 V 98
 /svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_topleft_to_bottomright.xml
-END
-grow_from_bottomright_to_topleft.xml
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/grow_from_bottomright_to_topleft.xml
-END
-grow_from_bottomleft_to_topright.xml
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_bottomleft_to_topright.xml
-END
-grow_from_top.xml
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_top.xml
-END
-grow_from_bottom.xml
-K 25
-svn:wc:ra_dav:version-url
-V 82
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_bottom.xml
-END
-rail.xml
-K 25
-svn:wc:ra_dav:version-url
-V 70
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/rail.xml
-END
-shrink_from_topright_to_bottomleft.xml
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_topright_to_bottomleft.xml
-END
-shrink_from_topleft_to_bottomright.xml
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/shrink_from_topleft_to_bottomright.xml
-END
-shrink_from_bottomright_to_topleft.xml
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_bottomright_to_topleft.xml
 END
 shrink_from_bottomleft_to_topright.xml
 K 25
@@ -69,17 +15,17 @@ svn:wc:ra_dav:version-url
 V 100
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/shrink_from_bottomleft_to_topright.xml
 END
+shrink_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_topright_to_bottomleft.xml
+END
 pump_top.xml
 K 25
 svn:wc:ra_dav:version-url
 V 74
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/pump_top.xml
-END
-shrink_from_top.xml
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_top.xml
 END
 pump_bottom.xml
 K 25
@@ -87,15 +33,69 @@ svn:wc:ra_dav:version-url
 V 77
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/pump_bottom.xml
 END
+disappear.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/disappear.xml
+END
+shrink_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_bottomright_to_topleft.xml
+END
+grow_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_bottomleft_to_topright.xml
+END
+grow_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/grow_from_topright_to_bottomleft.xml
+END
 shrink_from_bottom.xml
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_bottom.xml
 END
-disappear.xml
+grow_from_top.xml
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/disappear.xml
+V 79
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_top.xml
+END
+grow_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/grow_from_bottomright_to_topleft.xml
+END
+shrink_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/anim/shrink_from_topleft_to_bottomright.xml
+END
+rail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/rail.xml
+END
+grow_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/grow_from_bottom.xml
+END
+shrink_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/anim/shrink_from_top.xml
 END

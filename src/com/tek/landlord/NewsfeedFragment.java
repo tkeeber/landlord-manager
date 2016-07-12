@@ -26,79 +26,77 @@ import com.tek.landlord.wizard.NewPropertyWizardActivity;
 
 public class NewsfeedFragment extends ListFragment {
 
-    private static final int ID_ADD = 1;
-    private static final int ID_ACCEPT = 2;
-    private static final int ID_EDIT = 3;
+	private static final int ID_ADD = 1;
+	private static final int ID_ACCEPT = 2;
+	private static final int ID_EDIT = 3;
 
-    QuickAction mQuickAction;
+	QuickAction mQuickAction;
 
-    private NewsfeedDao newsfeedDao;
-    private ListView mListView;
+	private NewsfeedDao newsfeedDao;
+ 
+	ActionItem addItem;
+	ActionItem acceptItem;
+	ActionItem editItem;
+	private AnimateDismissAdapter animateDismissAdapter;
+	private NewsfeedListAdapter adapter;
 
-    ActionItem addItem;
-    ActionItem acceptItem;
-    ActionItem editItem;
-    private AnimateDismissAdapter animateDismissAdapter;
-    private NewsfeedListAdapter adapter;
+	private List<NewsfeedItem> newsfeedItems;
 
-    private List<NewsfeedItem> newsfeedItems;
+	private int mSelectedRow;
+	
+	@Override
+	public void onActivityCreated(Bundle savedInstanceState) {
+		super.onActivityCreated(savedInstanceState);
+		initNewsfeed();
+	}
 
-    private int mSelectedRow;
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+		this.newsfeedDao.close();
+	}
 
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        initNewsfeed();
-    }
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		 View view = inflater.inflate(R.layout.newsfeed_fragment, container, false);
+		 return view;
+	}
 
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        this.newsfeedDao.close();
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.newsfeed_fragment, container, false);
-        this.mListView = (ListView) view.findViewById(R.id.list_item);
-        return view;
-    }
-
-    private void initNewsfeed() {
+	private void initNewsfeed() {
         this.addItem = new ActionItem(ID_ADD, "Add Property", getResources().getDrawable(R.drawable.plus_large));
-        this.acceptItem = new ActionItem(ID_ACCEPT, "Dismiss Message", getResources().getDrawable(R.drawable.cancel));
+        this.acceptItem = new ActionItem(ID_ACCEPT, "Dismiss", getResources().getDrawable(R.drawable.ok));
         this.editItem = new ActionItem(ID_EDIT, "Edit", getResources().getDrawable(R.drawable.document));
         this.newsfeedDao = new NewsfeedDao(getActivity());
         this.newsfeedDao.open();
         Cursor cursor = this.newsfeedDao.getAllNonDismissedNewsfeedItems();
+        
+        newsfeedItems = new ArrayList<NewsfeedItem>();
 
-        this.newsfeedItems = new ArrayList<NewsfeedItem>();
-
-        if (cursor.moveToFirst()) {
+        if  (cursor.moveToFirst()) {
             do {
-                NewsfeedItem newsfeedItem = NewsfeedItemBuilder.aNewsfeedItem()
-                    .withTitle(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_TITLE)))
-                    .withId(cursor.getLong(cursor.getColumnIndex(NewsfeedEntry._ID)))
-                    .withDescription(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_DESCRIPTION_TEXT)))
-                    .withDate(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_DATE)))
-                    .withType(cursor.getInt(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_TYPE)))
-                    .build();
-
-                this.newsfeedItems.add(newsfeedItem);
-            } while (cursor.moveToNext());
+            	NewsfeedItem newsfeedItem = NewsfeedItemBuilder.aNewsfeedItem().
+            				withTitle(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_TITLE)))
+            				.withId(cursor.getLong(cursor.getColumnIndex(NewsfeedEntry._ID)))
+            				.withDescription(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_DESCRIPTION_TEXT)))
+            				.withDate(cursor.getString(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_DATE)))
+            				.withType(cursor.getInt(cursor.getColumnIndex(NewsfeedEntry.COLUMN_NAME_TYPE))).build();
+            				
+            	  newsfeedItems.add(newsfeedItem);
+            }while (cursor.moveToNext());
         }
-
-        this.adapter = new NewsfeedListAdapter(getActivity(), this.newsfeedItems);
-        OnDismissCallback myOnDismissCallback = new OnDismissCallback() {
-            public void onDismiss(AbsListView view, int[] reverseSortedPositions) {
-                for (int position : reverseSortedPositions) {
-                    removeItem(position);
-                }
-            }
-        };
-        this.animateDismissAdapter = new AnimateDismissAdapter(this.adapter, myOnDismissCallback);
-        this.animateDismissAdapter.setAbsListView(this.mListView);
-        setListAdapter(this.animateDismissAdapter);
+        
+        adapter = new NewsfeedListAdapter(getActivity(), newsfeedItems);
+    	OnDismissCallback myOnDismissCallback = new OnDismissCallback() {
+			public void onDismiss(AbsListView view, int[] reverseSortedPositions) {
+				for (int position : reverseSortedPositions) {
+					removeItem(position);
+				}
+			}
+		};
+        this.animateDismissAdapter = new AnimateDismissAdapter(adapter, myOnDismissCallback);
+		this.animateDismissAdapter.setAbsListView(this.getListView());
+        setListAdapter(animateDismissAdapter);
 
         // ActionItem addItem = new ActionItem(ID_ADD, "Paid", getResources().getDrawable(R.drawable.ok));
         // ActionItem acceptItem = new ActionItem(ID_ACCEPT, "Partial", getResources().getDrawable(R.drawable.calculator));
@@ -119,7 +117,8 @@ public class NewsfeedFragment extends ListFragment {
                     // FragmentManager fragmentManager = getFragmentManager();
                     // fragmentManager.beginTransaction().replace(R.id.container, new AddPropertyWizard()).commit();
                     startAddProperty();
-                } else if (actionId == ID_ACCEPT) {
+                } else if (actionId == ID_ACCEPT){
+                    Toast.makeText(NewsfeedFragment.this.getActivity(), actionItem.getTitle() + " selected", Toast.LENGTH_SHORT).show();
                     removeItem(NewsfeedFragment.this.mSelectedRow);
                 }
             }
@@ -129,42 +128,39 @@ public class NewsfeedFragment extends ListFragment {
 
             public void onDismiss() {
                 // Toast.makeText(NewsfeedFragment.this.getActivity(), "Ups..dismissed", Toast.LENGTH_SHORT).show();
-
+            	
             }
         });
     }
 
-    public void removeItem(final int selectionPosition) {
-        long id = this.adapter.get(selectionPosition).getId();
-        this.adapter.remove(selectionPosition);
-        this.newsfeedDao.markItemAsRead(id);
-        this.adapter.notifyDataSetChanged();
+	public void removeItem(final int selectionPosition) {
+		long id = adapter.get(selectionPosition).getId();
+		this.adapter.remove(selectionPosition);
+		this.newsfeedDao.markItemAsRead(id);
+		this.adapter.notifyDataSetChanged();
+	}
 
-        Toast.makeText(NewsfeedFragment.this.getActivity(), "Removed newsfeed item (" + id + ") at postion (" + selectionPosition + ")", Toast.LENGTH_SHORT)
-            .show();
+	private void startAddProperty() {
+		startActivity(new Intent(this.getActivity(),
+				NewPropertyWizardActivity.class));
+	}
 
-    }
+	@Override
+	public void onListItemClick(ListView l, View view, int position, long id) {
+		this.mSelectedRow = position;
+		int newsfeedRowType = this.adapter.get(position).getType();
+		this.mQuickAction.clearActionItems();
+		switch (newsfeedRowType) {
+		case NewsfeedType.APPLICATION_MESSAGE_ID:
+			this.mQuickAction.addActionItem(this.addItem);
+			this.mQuickAction.addActionItem(this.acceptItem);
+			break;
+		case NewsfeedType.NEW_PROPERTY_ADDED_ID:
+			this.mQuickAction.addActionItem(this.editItem);
+			this.mQuickAction.addActionItem(this.acceptItem);
+			break;
+		}
 
-    private void startAddProperty() {
-        startActivity(new Intent(this.getActivity(), NewPropertyWizardActivity.class));
-    }
-
-    @Override
-    public void onListItemClick(ListView l, View view, int position, long id) {
-        this.mSelectedRow = position;
-        int newsfeedRowType = this.adapter.get(position).getType();
-        this.mQuickAction.clearActionItems();
-        switch (newsfeedRowType) {
-        case NewsfeedType.APPLICATION_MESSAGE_ID:
-            this.mQuickAction.addActionItem(this.addItem);
-            this.mQuickAction.addActionItem(this.acceptItem);
-            break;
-        case NewsfeedType.NEW_PROPERTY_ADDED_ID:
-            this.mQuickAction.addActionItem(this.editItem);
-            this.mQuickAction.addActionItem(this.acceptItem);
-            break;
-        }
-
-        this.mQuickAction.show(view);
-    }
+		this.mQuickAction.show(view);
+	}
 }

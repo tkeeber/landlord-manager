@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-09-09T16:21:42.731286Z
-165
+2014-06-06T06:29:35.791250Z
+161
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 

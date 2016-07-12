@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/res
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-09-09T16:21:42.731286Z
-165
+2014-06-01T11:50:40.467314Z
+150
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,13 +26,7 @@ sprint22
 
 932c6fbe-3523-44cc-8d3c-5434c6b5a9f9
 
-values
-dir
-
-layout-hdpi
-dir
-
-values-w820dp
+anim
 dir
 
 drawable
@@ -41,22 +35,7 @@ dir
 drawable-hdpi
 dir
 
-drawable-xxhdpi
-dir
-
-menu
-dir
-
-values-v11
-dir
-
-anim
-dir
-
 drawable-ldpi
-dir
-
-values-v14
 dir
 
 drawable-mdpi
@@ -65,6 +44,27 @@ dir
 drawable-xhdpi
 dir
 
+drawable-xxhdpi
+dir
+
 layout
+dir
+
+layout-hdpi
+dir
+
+menu
+dir
+
+values
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+
+values-w820dp
 dir
 

@@ -1,49 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/drawable-hdpi
-END
-alarm.png
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/alarm.png
-END
-ic_up.png
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_up.png
-END
-ic_drawer.png
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_drawer.png
-END
-drawer_shadow.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/drawer_shadow.9.png
-END
-ic_add.png
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_add.png
-END
-textfield_default.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/textfield_default.9.png
-END
-health.png
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/99/android/Landlord/res/drawable-hdpi/health.png
+/svn/sprint-mobile-apps/!svn/ver/146/android/Landlord/res/drawable-hdpi
 END
 quickaction_slider_btn_pressed.9.png
 K 25
@@ -51,125 +9,11 @@ svn:wc:ra_dav:version-url
 V 107
 /svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_pressed.9.png
 END
-quickaction_top_frame.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_top_frame.9.png
-END
-item_focused.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/drawable-hdpi/item_focused.9.png
-END
-document.png
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/drawable-hdpi/document.png
-END
-quickaction_bottom_frame.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 101
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_bottom_frame.9.png
-END
-ic_list_more_selected.png
-K 25
-svn:wc:ra_dav:version-url
-V 96
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_list_more_selected.png
-END
-plus.png
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/drawable-hdpi/plus.png
-END
-cancel.png
-K 25
-svn:wc:ra_dav:version-url
-V 82
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/drawable-hdpi/cancel.png
-END
-quickaction_arrow_up.png
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_arrow_up.png
-END
-calculator.png
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/calculator.png
-END
-ic_action_event.png
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_action_event.png
-END
-quickaction_slider_grip_right.png
-K 25
-svn:wc:ra_dav:version-url
-V 104
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_grip_right.png
-END
 bubble.png
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/bubble.png
-END
-minus.png
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/146/android/Landlord/res/drawable-hdpi/minus.png
-END
-plus_large.png
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/drawable-hdpi/plus_large.png
-END
-quickaction_slider_btn_selected.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_selected.9.png
-END
-quickaction_slider_btn_normal.9.png
-K 25
-svn:wc:ra_dav:version-url
-V 106
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_normal.9.png
-END
-quickaction_slider_grip_left.png
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_grip_left.png
-END
-ic_list_more.png
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_list_more.png
-END
-calendar.png
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/calendar.png
-END
-ok.png
-K 25
-svn:wc:ra_dav:version-url
-V 77
-/svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/ok.png
 END
 ic_accept.png
 K 25
@@ -177,29 +21,47 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_accept.png
 END
-quickaction_arrow_down.png
+quickcontact_drop_shadow.9.png
 K 25
 svn:wc:ra_dav:version-url
-V 97
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_arrow_down.png
+V 101
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickcontact_drop_shadow.9.png
 END
-quickaction_slider_background.png
+alarm.png
 K 25
 svn:wc:ra_dav:version-url
-V 104
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_background.png
+V 80
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/alarm.png
 END
-ic_launcher.png
+quickaction_slider_grip_left.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_grip_left.png
+END
+ic_action_event.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_action_event.png
+END
+plus_large.png
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_launcher.png
+/svn/sprint-mobile-apps/!svn/ver/100/android/Landlord/res/drawable-hdpi/plus_large.png
 END
-quickaction_slider_btn_on.9.png
+item_focused.9.png
 K 25
 svn:wc:ra_dav:version-url
-V 102
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_on.9.png
+V 90
+/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/drawable-hdpi/item_focused.9.png
+END
+plus.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/plus.png
 END
 ic_action_read.png
 K 25
@@ -207,11 +69,65 @@ svn:wc:ra_dav:version-url
 V 89
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_action_read.png
 END
+document.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/drawable-hdpi/document.png
+END
+health.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/99/android/Landlord/res/drawable-hdpi/health.png
+END
+ok.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/ok.png
+END
+ic_up.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_up.png
+END
+ic_launcher.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_launcher.png
+END
+ic_list_more_selected.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_list_more_selected.png
+END
+quickaction_slider_btn_selected.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_selected.9.png
+END
 notification.png
 K 25
 svn:wc:ra_dav:version-url
 V 87
 /svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/notification.png
+END
+quickaction_arrow_up.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_arrow_up.png
+END
+quickaction_slider_btn_on.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_on.9.png
 END
 button_newsfeed_rent_ok.xml
 K 25
@@ -219,15 +135,99 @@ svn:wc:ra_dav:version-url
 V 98
 /svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/button_newsfeed_rent_ok.xml
 END
-quickcontact_drop_shadow.9.png
+quickaction_slider_background.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_background.png
+END
+minus.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/146/android/Landlord/res/drawable-hdpi/minus.png
+END
+quickaction_slider_grip_right.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_grip_right.png
+END
+ic_list_more.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_list_more.png
+END
+quickaction_top_frame.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_top_frame.9.png
+END
+quickaction_arrow_down.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_arrow_down.png
+END
+ic_drawer.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/ic_drawer.png
+END
+quickaction_slider_btn_normal.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_slider_btn_normal.9.png
+END
+drawer_shadow.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/drawer_shadow.9.png
+END
+textfield_default.9.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/textfield_default.9.png
+END
+cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/drawable-hdpi/cancel.png
+END
+ic_add.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/ic_add.png
+END
+calendar.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-hdpi/calendar.png
+END
+quickaction_bottom_frame.9.png
 K 25
 svn:wc:ra_dav:version-url
 V 101
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickcontact_drop_shadow.9.png
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/drawable-hdpi/quickaction_bottom_frame.9.png
 END
 item_pressed.9.png
 K 25
 svn:wc:ra_dav:version-url
 V 90
 /svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/drawable-hdpi/item_pressed.9.png
+END
+calculator.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/sprint-mobile-apps/!svn/ver/97/android/Landlord/res/drawable-hdpi/calculator.png
 END

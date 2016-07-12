@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src/com/tek/landlord/service
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-06-11T06:38:53.425016Z
-164
+2014-06-05T07:33:21.128603Z
+160
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -28,11 +28,11 @@ sprint22
 
 PropertyService.java
 file
+164
 
 
 
-
-2014-09-11T16:49:07.000000Z
+2014-06-11T06:12:14.000000Z
 ef928c88516ddcfa5be3bd4ad02eed8d
 2014-06-11T06:38:53.425016Z
 164

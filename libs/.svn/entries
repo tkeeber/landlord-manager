@@ -1,7 +1,7 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/libs
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
@@ -12,7 +12,7 @@ https://subversion.assembla.com/svn/sprint-mobile-apps
 sprint22
 has-props
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,39 +26,19 @@ has-props
 
 932c6fbe-3523-44cc-8d3c-5434c6b5a9f9
 
-nineoldandroids-2.4.0.jar
+android-support-v4.jar
 file
+0
+
+
+add
 
 
 
 
-2014-09-11T16:49:10.000000Z
-d719629ae7c443ed75566ef241bc835d
-2014-05-30T15:58:03.031075Z
-149
-sprint22
+
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-110746
+has-prop-mods
 
 com.haarman.listviewanimations-2.6.0.jar
 file
@@ -66,7 +46,7 @@ file
 
 
 
-2014-09-11T16:49:10.000000Z
+2014-05-30T17:50:40.000000Z
 d6896dece23c221cd969951aff3a559e
 2014-05-30T15:58:03.031075Z
 149
@@ -93,4 +73,38 @@ has-props
 
 
 97432
+
+nineoldandroids-2.4.0.jar
+file
+
+
+
+
+2014-05-30T17:50:40.000000Z
+d719629ae7c443ed75566ef241bc835d
+2014-05-30T15:58:03.031075Z
+149
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+110746
 

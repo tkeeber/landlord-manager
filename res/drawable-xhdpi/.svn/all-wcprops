@@ -15,6 +15,12 @@ svn:wc:ra_dav:version-url
 V 85
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-xhdpi/ic_drawer.png
 END
+ic_action_event.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-xhdpi/ic_action_event.png
+END
 drawer_shadow.9.png
 K 25
 svn:wc:ra_dav:version-url
@@ -26,10 +32,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 90
 /svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-xhdpi/ic_action_read.png
-END
-ic_action_event.png
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/drawable-xhdpi/ic_action_event.png
 END

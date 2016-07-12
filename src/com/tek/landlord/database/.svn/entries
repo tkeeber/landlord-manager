@@ -1,18 +1,18 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/src/com/tek/landlord/database
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
 
 
-2014-06-11T06:38:53.425016Z
-164
+2014-06-05T07:33:21.128603Z
+160
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -28,11 +28,11 @@ sprint22
 
 LandlordDatabaseHelper.java
 file
+164
 
 
 
-
-2014-09-11T16:49:08.000000Z
+2014-06-11T06:30:50.000000Z
 24a5bf375f7038da94e45b69ff6b4bb9
 2014-06-11T06:38:53.425016Z
 164

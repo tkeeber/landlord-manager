@@ -1,7 +1,61 @@
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/sprint-mobile-apps/!svn/ver/164/android/Landlord/src/com/tek/landlord/domain
+/svn/sprint-mobile-apps/!svn/ver/161/android/Landlord/src/com/tek/landlord/domain
+END
+PropertyType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sprint-mobile-apps/!svn/ver/161/android/Landlord/src/com/tek/landlord/domain/PropertyType.java
+END
+FinancialItemBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/sprint-mobile-apps/!svn/ver/132/android/Landlord/src/com/tek/landlord/domain/FinancialItemBuilder.java
+END
+FinancialItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sprint-mobile-apps/!svn/ver/132/android/Landlord/src/com/tek/landlord/domain/FinancialItem.java
+END
+NewsfeedType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/src/com/tek/landlord/domain/NewsfeedType.java
+END
+Tenant.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/sprint-mobile-apps/!svn/ver/127/android/Landlord/src/com/tek/landlord/domain/Tenant.java
+END
+NewsfeedItemBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/sprint-mobile-apps/!svn/ver/164/android/Landlord/src/com/tek/landlord/domain/NewsfeedItemBuilder.java
+END
+UnitBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/127/android/Landlord/src/com/tek/landlord/domain/UnitBuilder.java
+END
+PropertyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/sprint-mobile-apps/!svn/ver/158/android/Landlord/src/com/tek/landlord/domain/PropertyBuilder.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sprint-mobile-apps/!svn/ver/160/android/Landlord/src/com/tek/landlord/domain/Property.java
 END
 NewsfeedItem.java
 K 25
@@ -20,58 +74,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 100
 /svn/sprint-mobile-apps/!svn/ver/127/android/Landlord/src/com/tek/landlord/domain/TenantBuilder.java
-END
-NewsfeedType.java
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/src/com/tek/landlord/domain/NewsfeedType.java
-END
-FinancialItem.java
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/sprint-mobile-apps/!svn/ver/132/android/Landlord/src/com/tek/landlord/domain/FinancialItem.java
-END
-Property.java
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/sprint-mobile-apps/!svn/ver/160/android/Landlord/src/com/tek/landlord/domain/Property.java
-END
-NewsfeedItemBuilder.java
-K 25
-svn:wc:ra_dav:version-url
-V 106
-/svn/sprint-mobile-apps/!svn/ver/164/android/Landlord/src/com/tek/landlord/domain/NewsfeedItemBuilder.java
-END
-PropertyType.java
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/sprint-mobile-apps/!svn/ver/161/android/Landlord/src/com/tek/landlord/domain/PropertyType.java
-END
-UnitBuilder.java
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/127/android/Landlord/src/com/tek/landlord/domain/UnitBuilder.java
-END
-Tenant.java
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/svn/sprint-mobile-apps/!svn/ver/127/android/Landlord/src/com/tek/landlord/domain/Tenant.java
-END
-FinancialItemBuilder.java
-K 25
-svn:wc:ra_dav:version-url
-V 107
-/svn/sprint-mobile-apps/!svn/ver/132/android/Landlord/src/com/tek/landlord/domain/FinancialItemBuilder.java
-END
-PropertyBuilder.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/sprint-mobile-apps/!svn/ver/158/android/Landlord/src/com/tek/landlord/domain/PropertyBuilder.java
 END

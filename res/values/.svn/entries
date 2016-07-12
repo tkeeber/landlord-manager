@@ -1,7 +1,7 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/res/values
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
@@ -12,7 +12,7 @@ https://subversion.assembla.com/svn/sprint-mobile-apps
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -26,16 +26,16 @@ sprint22
 
 932c6fbe-3523-44cc-8d3c-5434c6b5a9f9
 
-strings-wizard-framework.xml
+colours-wizard-framework.xml
 file
 
 
 
 
-2014-09-11T16:49:10.000000Z
-cc2cd39649a29b79eae9349752d11224
-2014-05-23T12:05:49.603710Z
-137
+2014-05-22T22:31:34.000000Z
+3e67f12c4355cc37da313f3741db917b
+2014-05-22T17:38:47.480849Z
+134
 sprint22
 
 
@@ -58,41 +58,7 @@ sprint22
 
 
 
-359
-
-styles.xml
-file
-
-
-
-
-2014-05-16T14:49:27.000000Z
-52e5370ee8e26c342971db02edf9bae0
-2014-05-16T12:48:58.759249Z
-122
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4117
+388
 
 colours.xml
 file
@@ -100,7 +66,7 @@ file
 
 
 
-2014-05-16T06:03:14.000000Z
+2014-05-21T19:10:24.000000Z
 a5392ab8d84e325951fca4dd03695acb
 2014-05-16T06:46:11.013947Z
 119
@@ -134,7 +100,7 @@ file
 
 
 
-2014-09-11T16:49:10.000000Z
+2014-05-22T22:31:34.000000Z
 281c52f97df411064fa80866b520e61a
 2014-05-22T17:38:47.480849Z
 134
@@ -162,149 +128,13 @@ sprint22
 
 187
 
-strings.xml
-file
-
-
-
-
-2014-09-11T16:49:10.000000Z
-a1e3953ef15ff7919ac27be3bcba6006
-2014-05-29T15:44:42.602941Z
-145
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4276
-
-strings-titles.xml
-file
-
-
-
-
-2014-05-21T06:41:41.000000Z
-17bd703372ac98034847405637fcc913
-2014-05-21T06:58:35.382681Z
-130
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1015
-
-wizard-framework-styles.xml
-file
-
-
-
-
-2014-09-11T16:49:10.000000Z
-383b8cd56ca455ddfcf7bf5303c56343
-2014-05-22T17:38:47.480849Z
-134
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1781
-
-strings-defaults.xml
-file
-
-
-
-
-2014-05-21T06:39:33.000000Z
-b22a752086d9048dd4efd575b3b95b08
-2014-05-21T06:58:35.382681Z
-130
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-183
-
 dimens.xml
 file
 
 
 
 
-2014-04-11T06:36:09.000000Z
+2014-05-21T19:10:24.000000Z
 35ec3d499d5a52318a2aca02d9def831
 2014-04-07T15:44:22.583213Z
 80
@@ -332,14 +162,184 @@ sprint22
 
 467
 
-colours-wizard-framework.xml
+strings-defaults.xml
 file
 
 
 
 
-2014-09-11T16:49:10.000000Z
-3e67f12c4355cc37da313f3741db917b
+2014-05-21T19:10:24.000000Z
+b22a752086d9048dd4efd575b3b95b08
+2014-05-21T06:58:35.382681Z
+130
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+183
+
+strings-titles.xml
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+17bd703372ac98034847405637fcc913
+2014-05-21T06:58:35.382681Z
+130
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1015
+
+strings-wizard-framework.xml
+file
+
+
+
+
+2014-05-23T15:26:11.000000Z
+cc2cd39649a29b79eae9349752d11224
+2014-05-23T12:05:49.603710Z
+137
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+359
+
+strings.xml
+file
+
+
+
+
+2014-05-29T16:13:49.000000Z
+a1e3953ef15ff7919ac27be3bcba6006
+2014-05-29T15:44:42.602941Z
+145
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4276
+
+styles.xml
+file
+
+
+
+
+2014-05-21T19:10:24.000000Z
+52e5370ee8e26c342971db02edf9bae0
+2014-05-16T12:48:58.759249Z
+122
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4117
+
+wizard-framework-styles.xml
+file
+
+
+
+
+2014-05-22T22:31:34.000000Z
+383b8cd56ca455ddfcf7bf5303c56343
 2014-05-22T17:38:47.480849Z
 134
 sprint22
@@ -364,5 +364,5 @@ sprint22
 
 
 
-388
+1781
 

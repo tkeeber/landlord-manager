@@ -1,7 +1,7 @@
 10
 
 dir
-165
+161
 https://subversion.assembla.com/svn/sprint-mobile-apps/android/Landlord/res/drawable-mdpi
 https://subversion.assembla.com/svn/sprint-mobile-apps
 
@@ -12,7 +12,7 @@ https://subversion.assembla.com/svn/sprint-mobile-apps
 sprint22
 
 
-
+svn:special svn:externals svn:needs-lock
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2014-04-11T06:36:10.000000Z
+2014-05-21T19:10:26.000000Z
 50bcfb1caeb30a83e63f840acbbe2cfb
 2014-04-07T15:44:22.583213Z
 80
@@ -60,217 +60,13 @@ has-props
 
 5424
 
-rectangle_gradient.xml
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-5d8cc6e1480dd4a7e6953653ce8c2d03
-2014-04-10T14:59:52.686743Z
-84
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-307
-
-background_rounded_corners_no_border.xml
-file
-
-
-
-
-2014-05-16T14:49:27.000000Z
-05974f1be4c39f9ddecf04df02c6bfb9
-2014-05-16T14:39:04.195704Z
-123
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-356
-
-ic_drawer.png
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-8613e5d63a9cf9e7aacaded70877935b
-2014-04-07T15:44:22.583213Z
-80
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2820
-
-currency_pound.png
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-e750f8396f11c84c6554d423778b2480
-2014-04-10T14:59:52.686743Z
-84
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6086
-
-drawer_shadow.9.png
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-59612bd98035a8ae098df43d703bbf8c
-2014-04-07T15:44:22.583213Z
-80
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-142
-
-background_rounded_corners_lines.xml
-file
-
-
-
-
-2014-09-11T16:49:10.000000Z
-95325bddbbb949bbf39c97f37617b101
-2014-05-30T15:57:09.561353Z
-148
-sprint22
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-357
-
 background_rounded_corners.xml
 file
 
 
 
 
-2014-09-11T16:49:10.000000Z
+2014-05-30T17:50:39.000000Z
 f2d418181a006982a44fc4d9c7622762
 2014-05-30T15:57:09.561353Z
 148
@@ -298,13 +94,115 @@ sprint22
 
 357
 
+background_rounded_corners_lines.xml
+file
+
+
+
+
+2014-05-30T17:50:39.000000Z
+95325bddbbb949bbf39c97f37617b101
+2014-05-30T15:57:09.561353Z
+148
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+357
+
+background_rounded_corners_no_border.xml
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+05974f1be4c39f9ddecf04df02c6bfb9
+2014-05-16T14:39:04.195704Z
+123
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+356
+
+bubble.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+b18becd3b45a18ba72ed0bdd18879859
+2014-04-07T15:44:22.583213Z
+80
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5147
+
 calendar.png
 file
 
 
 
 
-2014-04-11T06:36:10.000000Z
+2014-05-21T19:10:26.000000Z
 7b034c66fba0278d8c8e3773742ff463
 2014-04-07T15:44:22.583213Z
 80
@@ -332,149 +230,13 @@ has-props
 
 5523
 
-home2.png
-file
-
-
-
-
-2014-04-15T15:56:55.000000Z
-66b499dd84d52927733b225dbf90974f
-2014-04-15T15:45:52.011183Z
-91
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1170
-
-ic_launcher.png
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-6bd139b68c1567c048c3cf1de3a30470
-2014-04-07T15:44:22.583213Z
-80
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2793
-
-currency_pound_xsmall.png
-file
-
-
-
-
-2014-04-15T15:56:55.000000Z
-adb5163f87a5e64e8c3d5539f6afbbab
-2014-04-15T15:45:52.011183Z
-91
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1467
-
-ic_action_read.png
-file
-
-
-
-
-2014-04-11T06:36:10.000000Z
-3e96f86c03d36bf71e922ab703b2fa89
-2014-04-07T15:44:22.583213Z
-80
-sprint22
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-394
-
 cancel.png
 file
 
 
 
 
-2014-04-18T07:53:03.000000Z
+2014-05-21T19:10:26.000000Z
 5bbba08e7835786294f0a3d86cf0b35b
 2014-05-13T18:00:42.113670Z
 116
@@ -502,13 +264,47 @@ has-props
 
 1315
 
+currency_pound.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+e750f8396f11c84c6554d423778b2480
+2014-04-10T14:59:52.686743Z
+84
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6086
+
 currency_pound_small.png
 file
 
 
 
 
-2014-04-12T09:30:19.000000Z
+2014-05-21T19:10:26.000000Z
 0d411a486ac0b800df63b1846bf05639
 2014-04-11T14:59:25.017634Z
 85
@@ -536,13 +332,81 @@ has-props
 
 2544
 
+currency_pound_xsmall.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+adb5163f87a5e64e8c3d5539f6afbbab
+2014-04-15T15:45:52.011183Z
+91
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1467
+
+drawer_shadow.9.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+59612bd98035a8ae098df43d703bbf8c
+2014-04-07T15:44:22.583213Z
+80
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+142
+
 home.png
 file
 
 
 
 
-2014-04-15T15:56:55.000000Z
+2014-05-21T19:10:26.000000Z
 116579acf25cc57bd127f53c6901cbb4
 2014-04-15T15:45:52.011183Z
 91
@@ -570,13 +434,47 @@ has-props
 
 1201
 
+home2.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+66b499dd84d52927733b225dbf90974f
+2014-04-15T15:45:52.011183Z
+91
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1170
+
 ic_action_event.png
 file
 
 
 
 
-2014-04-11T06:36:10.000000Z
+2014-05-21T19:10:26.000000Z
 ecd0667724307be853104e9332361f44
 2014-04-07T15:44:22.583213Z
 80
@@ -604,14 +502,14 @@ has-props
 
 285
 
-bubble.png
+ic_action_read.png
 file
 
 
 
 
-2014-04-11T06:36:10.000000Z
-b18becd3b45a18ba72ed0bdd18879859
+2014-05-21T19:10:26.000000Z
+3e96f86c03d36bf71e922ab703b2fa89
 2014-04-07T15:44:22.583213Z
 80
 sprint22
@@ -636,5 +534,107 @@ has-props
 
 
 
-5147
+394
+
+ic_drawer.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+8613e5d63a9cf9e7aacaded70877935b
+2014-04-07T15:44:22.583213Z
+80
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2820
+
+ic_launcher.png
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+6bd139b68c1567c048c3cf1de3a30470
+2014-04-07T15:44:22.583213Z
+80
+sprint22
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2793
+
+rectangle_gradient.xml
+file
+
+
+
+
+2014-05-21T19:10:26.000000Z
+5d8cc6e1480dd4a7e6953653ce8c2d03
+2014-04-10T14:59:52.686743Z
+84
+sprint22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+307
 

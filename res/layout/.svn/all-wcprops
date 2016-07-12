@@ -1,103 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 64
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/layout
-END
-newsfeed_fragment.xml
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/newsfeed_fragment.xml
-END
-financial_summary_fragment.xml
-K 25
-svn:wc:ra_dav:version-url
-V 95
-/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/financial_summary_fragment.xml
-END
-fragment_navigation_drawer.xml
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/layout/fragment_navigation_drawer.xml
-END
-wizard_framework_add_property_unit.xml
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/svn/sprint-mobile-apps/!svn/ver/165/android/Landlord/res/layout/wizard_framework_add_property_unit.xml
-END
-add_property_tenants.xml
-K 25
-svn:wc:ra_dav:version-url
-V 89
-/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_tenants.xml
-END
-add_tenant_row.xml
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/sprint-mobile-apps/!svn/ver/112/android/Landlord/res/layout/add_tenant_row.xml
-END
-wizard_framework_new_property.xml
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/sprint-mobile-apps/!svn/ver/145/android/Landlord/res/layout/wizard_framework_new_property.xml
-END
-popup_vertical.xml
-K 25
-svn:wc:ra_dav:version-url
-V 82
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/popup_vertical.xml
-END
-wizard_framework_fragment_page.xml
-K 25
-svn:wc:ra_dav:version-url
-V 99
-/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/wizard_framework_fragment_page.xml
-END
-add_property_basic.xml
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/add_property_basic.xml
-END
-activity_main.xml
-K 25
-svn:wc:ra_dav:version-url
-V 82
-/svn/sprint-mobile-apps/!svn/ver/123/android/Landlord/res/layout/activity_main.xml
-END
-add_unit_dialog.xml
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/sprint-mobile-apps/!svn/ver/150/android/Landlord/res/layout/add_unit_dialog.xml
-END
-add_property_single_unit_tenant_info_view.xml
-K 25
-svn:wc:ra_dav:version-url
-V 110
-/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_single_unit_tenant_info_view.xml
-END
-property_row.xml
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/126/android/Landlord/res/layout/property_row.xml
-END
-add_financial_dialog.xml
-K 25
-svn:wc:ra_dav:version-url
-V 89
-/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/add_financial_dialog.xml
-END
-horiz_separator.xml
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/horiz_separator.xml
+/svn/sprint-mobile-apps/!svn/ver/150/android/Landlord/res/layout
 END
 popup_horizontal.xml
 K 25
@@ -105,17 +9,11 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/popup_horizontal.xml
 END
-add_tenant_dialog.xml
+wizard_framework_list_item_review.xml
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/svn/sprint-mobile-apps/!svn/ver/137/android/Landlord/res/layout/add_tenant_dialog.xml
-END
-property_summary_fragment.xml
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_summary_fragment.xml
+V 102
+/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/wizard_framework_list_item_review.xml
 END
 action_item_vertical.xml
 K 25
@@ -123,11 +21,23 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/action_item_vertical.xml
 END
-newsfeed_row.xml
+add_financial_dialog.xml
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/svn/sprint-mobile-apps/!svn/ver/129/android/Landlord/res/layout/newsfeed_row.xml
+V 89
+/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/add_financial_dialog.xml
+END
+newsfeed_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/newsfeed_fragment.xml
+END
+add_tenant_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sprint-mobile-apps/!svn/ver/137/android/Landlord/res/layout/add_tenant_dialog.xml
 END
 home.xml
 K 25
@@ -135,59 +45,23 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/sprint-mobile-apps/!svn/ver/129/android/Landlord/res/layout/home.xml
 END
-financial_item_row.xml
+add_property_basic.xml
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/financial_item_row.xml
+/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/add_property_basic.xml
 END
-action_item.xml
+horiz_separator.xml
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/layout/action_item.xml
+V 83
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/horiz_separator.xml
 END
-add_property_financial.xml
+add_tenant_row.xml
 K 25
 svn:wc:ra_dav:version-url
-V 91
-/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/add_property_financial.xml
-END
-add_property_single_tenant_view.xml
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_single_tenant_view.xml
-END
-property_list_fragment.xml
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_list_fragment.xml
-END
-action_item_horizontal.xml
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/action_item_horizontal.xml
-END
-property_fragment.xml
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_fragment.xml
-END
-fragment_main.xml
-K 25
-svn:wc:ra_dav:version-url
-V 82
-/svn/sprint-mobile-apps/!svn/ver/118/android/Landlord/res/layout/fragment_main.xml
-END
-wizard_framework_list_item_review.xml
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/wizard_framework_list_item_review.xml
+V 83
+/svn/sprint-mobile-apps/!svn/ver/112/android/Landlord/res/layout/add_tenant_row.xml
 END
 quickaction.xml
 K 25
@@ -195,17 +69,143 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/sprint-mobile-apps/!svn/ver/93/android/Landlord/res/layout/quickaction.xml
 END
+financial_item_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/financial_item_row.xml
+END
+property_list_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_list_fragment.xml
+END
+popup_vertical.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/popup_vertical.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sprint-mobile-apps/!svn/ver/123/android/Landlord/res/layout/activity_main.xml
+END
+add_property_single_tenant_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_single_tenant_view.xml
+END
+property_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/126/android/Landlord/res/layout/property_row.xml
+END
+add_property_single_unit_tenant_info_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_single_unit_tenant_info_view.xml
+END
+property_summary_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_summary_fragment.xml
+END
 new_property_wizard.xml
 K 25
 svn:wc:ra_dav:version-url
 V 88
 /svn/sprint-mobile-apps/!svn/ver/131/android/Landlord/res/layout/new_property_wizard.xml
 END
+property_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/property_fragment.xml
+END
+wizard_framework_add_property_unit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/sprint-mobile-apps/!svn/ver/148/android/Landlord/res/layout/wizard_framework_add_property_unit.xml
+END
+action_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/sprint-mobile-apps/!svn/ver/85/android/Landlord/res/layout/action_item.xml
+END
+add_property_tenants.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/sprint-mobile-apps/!svn/ver/116/android/Landlord/res/layout/add_property_tenants.xml
+END
+add_property_financial.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/sprint-mobile-apps/!svn/ver/106/android/Landlord/res/layout/add_property_financial.xml
+END
+financial_summary_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/sprint-mobile-apps/!svn/ver/130/android/Landlord/res/layout/financial_summary_fragment.xml
+END
+add_unit_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/sprint-mobile-apps/!svn/ver/150/android/Landlord/res/layout/add_unit_dialog.xml
+END
+action_item_horizontal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/sprint-mobile-apps/!svn/ver/94/android/Landlord/res/layout/action_item_horizontal.xml
+END
+fragment_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/sprint-mobile-apps/!svn/ver/118/android/Landlord/res/layout/fragment_main.xml
+END
 property_list.xml
 K 25
 svn:wc:ra_dav:version-url
 V 82
 /svn/sprint-mobile-apps/!svn/ver/117/android/Landlord/res/layout/property_list.xml
+END
+wizard_framework_new_property.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/sprint-mobile-apps/!svn/ver/145/android/Landlord/res/layout/wizard_framework_new_property.xml
+END
+wizard_framework_fragment_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/sprint-mobile-apps/!svn/ver/134/android/Landlord/res/layout/wizard_framework_fragment_page.xml
+END
+newsfeed_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sprint-mobile-apps/!svn/ver/129/android/Landlord/res/layout/newsfeed_row.xml
+END
+fragment_navigation_drawer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/sprint-mobile-apps/!svn/ver/80/android/Landlord/res/layout/fragment_navigation_drawer.xml
 END
 wizard_framework_add_property_unit_row.xml
 K 25
